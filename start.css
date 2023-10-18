@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+img{
+    cursor: pointer;
+}
+ul,li{
+    cursor: pointer;
+}
+.intro-items ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.main-had{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+.header-itmes{
+    display: flex;
+    width: 976px;
+    height: 73px;
+    /* background-color: aqua; */
+    align-items: center;
+    margin-left: -7rem;
+    
+}
+.header-itmes .logo a img{
+    height: 40px;
+    width: 40px;
+    
+}
+
+.intro-items ul{
+    display: flex;
+    /* justify-content: space-evenly; */
+   
+    height: 41.73px;
+    align-items: center;
+    gap: 0.1rem;
+}
+.intro-items ul li{
+    margin-left: 5rem;
+    font-size: 1.2rem;
+   
+}
+.search-bar{
+    width: 240px;
+    height: 24px;
+   display: flex;
+   align-items: center;
+    
+}
+.search-bar input{
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 25px;
+    margin-left: 3rem;
+  
+}
+.grp-logo{
+    display: flex;
+    align-items: center;
+}
+.grp-logo i{
+    font-size: 25px;
+    margin-left: 5rem;
+}
+.reward{
+    margin-top: 0.2rem;
+    height: 80px;
+    background-color: #1e3932;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+
+}
+.reward .rward-info h5{
+    font-size: 1rem;
+    margin-left: 8.5rem;
+    color: white;
+}
+.rward-btn button {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+.reward button{
+   margin-right: 13rem;
+}  
+
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 8.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .menus {
+    margin-left: 8.5rem;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 5.5rem;
+  }
+  
+  
+  .menus-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .menus-item img {
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    display: flex;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .menus-item p {
+    margin-top: 0.75rem;
+    font-weight: 800;
+  }
+  .menus-item img:hover {
+    border-color: green;
+
+    transform: scale(1.05);
+  }
+  .box {
+    height: 220px;
+    width: 1080px;
+    background-color: rgb(238, 157, 65);
+    margin-left: 8.7rem;
+    margin-top: 5rem;
+    border-radius: 10px;
+    display: flex;
+  }
+  
+  .box-img img {
+    width: 105px;
+    height: 220px;
+  }
+  
+  .item-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item-details .p1 {
+    margin-top: 1.75rem;
+  }
+  
+  .item-details .p2 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .item-details .p3 {
+    width: 600px;
+    margin-top: 0.5rem;
+  }
+  
+  
+.box-btn button{
+    height: 49px;
+    width: 200px;
+    background-color: #00754a;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.box-btn {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 1.75rem;
+    margin-left: 6.5rem;
+}
+.price-info {
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  .price-info .price{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+
+.main-card{
+  margin-left: 8.7rem;
+}
+.card {
+  width: 345px;
+  height: 380px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* margin-left: 1.5rem; */
+  
+ margin-top: 1.75rem; 
+  display: inline-block;
+  margin-right: 1.5rem;
+ 
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  
+}
+
+
+
+
+
+
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  
+ 
+}
+.container{
+  /* margin-top: 1.5rem; */
+  border-radius: 10px 10px ;
+  background-color: #f3e5e5;
+  height: 100vh;
+  
+}
+.container-items{
+  margin-left: 1rem;
+}
+.container .new .new-l{
+  width: 85px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #eee8e8;
+  color: green;
+  font-size: 0.85rem;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.container-items .card-tittle{
+  color: #1e3932;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.card-dis{
+  margin-top: 0.5rem;
+  /* font-size: 5rem; */
+}
+.prince-btn{
+  display: flex;
+  margin-top: 0.75rem;
+  gap: 8rem;
+  display: flex;
+  
+  
+}
+.prince-btn h4{
+  font-size: 1.3rem;
+  margin-top: 0.2rem;
+ 
+  
+  
+}
+.prince-btn button{
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  height: 32px;
+  cursor: pointer;
+  width: 96px;
+  background-color: #198754;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.recomanded{
+  height: 300px;
+  /* width: 97px; */
+  background-color: #edebe9;
+  margin-top: 5rem;
+ 
+}
+
+.heading-btn {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.heading-btn h2 {
+  order: 1; /* Display h2 on the left */
+  margin-top: 2rem;
+  font-weight: 800;
+}
+
+.heading-btn h4 {
+  order: 2; /* Display h4 on the right */
+  margin-top: 2.4rem;
+  margin-right: 6rem;
+  cursor: pointer;
+  color: #198754;
+}
+
+
+.recom-main{
+  margin-left: 8.7rem;
+}
+.recom-cards {
+  height: 160px;
+  width: 296px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.recom-itms {
+  display: flex;
+  
+}
+
+.recom-itms img {
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.recom-itms h3{
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 0.76rem;
+}
+.priceand-butn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.priceand-butn h5{
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+.priceand-butn button{
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 1.1rem;
+  background-color: #00754a;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.boy{
+  margin-top: 3rem;
+  height: 510px;
+  background-color: #edebe9;
+}
+
+
+ 
+
+
+ .boy-img {
+  background-image: url('boy.jpg');
+  /* background-size: cover; */
+  background-size: cover;
+  background-position: center center;
+  height: 372px;
+  width: 920px;
+ 
+  color: white;
+  
+  margin: 10px auto;
+
+  margin-top: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+ }
+
+
+.img-detail {
+ margin-left: 0.9rem;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 11rem;
+  
+}
+
+.img-detail h5 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.img-detail p {
+  /* margin-bottom: 20px; */
+  margin-top: 1.2rem;
+  font-size: 16px;
+}
+
+.img-detail button {
+  padding: 10px 40px;
+  margin-top: 1.9rem;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+ul li{
+  text-decoration: none;
+    list-style: none;
+    
+}
+a {
+  color: inherit; /* Inherits color from parent */
+  text-decoration: none; /* Removes underline */
+}
+.bottom{
+  height: 500px;
+  background-color: #0e382c;
+  margin-top: 4.75rem;
+  color: #fff;
+}
+.bottom-logo img{
+  width: 66px;
+  height: 66px;
+  margin-top: 3rem;
+  
+}
+.bottm-items{
+  display: flex;
+ 
+ margin-left: 8.6rem;
+}
+.abou-us{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  
+}
+.abou-us h3{
+  font-size: 1.5rem;
+}
+.abou-us ul{
+  margin-top: 1.5rem;
+  
+}
+
+
+
+
+.social-icon i{
+  font-size: 2rem;
+  padding: 8.5px;
+  margin-top: 0.9rem;
+  cursor: pointer;
+}
+.abou-us .ios-img{
+  width: 50px;
+  height: 50px;
+  
+}
+.abou-us .ios-img img{
+  padding: 5px;
+}
